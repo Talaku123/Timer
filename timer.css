@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;margin: 0;padding: 0;
+}
+body{
+   background-color: #14f9e2;
+   text-align: center;
+   width: 100%;
+}
+
+
+.wrapper{
+   display: block;
+   height: 35vh;
+   justify-content: center;
+   margin: 320px auto;
+   text-align: center;
+   width: 60%;
+}
+#js-timer{
+  font-size: 100px;
+  font-weight: 900;
+}
+timer-section, span{
+   font-size: 100px;
+   font-weight: 900;
+   margin-top: 20vh;
+   grid: 34px;
+
+}
+.countdown-time{
+  background-color: white;
+   border: 3px;
+   height: 3vh;
+   width: 20%;
+}
+.btn-timer{
+   height: 60px;
+   margin-top: 60px;
+   width: 300px;
+  
+}
+
+
+/* @media screen and (max-width: 600px){
+
+  .wrapper{
+    width: 120%;
+  }
+
+} */
